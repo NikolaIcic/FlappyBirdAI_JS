@@ -1,0 +1,189 @@
+html,body,header,nav,ul,li,a,main,p,div{
+	margin:0;
+	padding:0;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 36px;
+}
+
+body{
+	background:#404040;
+}
+
+header{
+    height: 6vh;
+    width: 100vw;
+    position: relative;
+    z-index: 20;
+}
+
+main{
+    background:url('../img/day.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 94vh;
+    width: 65vw;
+    margin: auto;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.leftpage{
+    background:#404040;
+    height: 94vh;
+    width: 17.5vw;
+    position:fixed;
+    float:left;
+    z-index: 30;
+}
+
+.rightpage{
+    background:#404040;
+    height: 94vh;
+    width: 17.5vw;
+    position:fixed;
+    float:right;
+    right: 0;
+    z-index: 31;
+    text-align: center;
+    color:yellow;
+}
+
+header nav{
+    background: #262626;
+	color: white;
+    height: 100%;
+}
+header nav ul{
+    list-style: none;
+    height: 100%;
+    margin-left:10px;
+}
+header nav ul li{
+    height: 100%;
+    display: block;
+    float:left;
+    padding-right: 20px;
+	padding-left: 15px;
+    line-height: 6vh;
+    text-align: center;
+}
+header nav ul li a{
+    color: white;
+	text-decoration: none;
+	font-size: 32px;
+	display: block;
+	text-align: center;
+}
+header nav ul li:hover{
+	background: #7b1e5c;
+}
+
+
+
+#Floor{
+	background:url("../img/floor.png");
+	background-size: contain;
+	width: 65vw;
+	height: 5vh;
+	position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+.Obstacle{
+    width: 5vw;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.ObsPart{
+    background:url('../img/wall1.png');
+    background-size: cover;
+    width: 100%;
+}
+
+.Score{
+    color:white;
+    float:right;
+    position: relative;
+    z-index: 35;
+    margin-right:1vw;
+}
+
+.Info1{
+    background-color:rgb(136, 32, 122);
+    color:rgb(51, 218, 87);
+    width: 70%;
+    margin:auto;
+    margin-top:1vh;
+}
+.Info2{
+    background-color:rgb(224, 210, 12);
+    color:rgb(154, 12, 219);
+    width: 60%;
+    margin:auto;
+    margin-top:3vh;
+}
+.Info3{
+    background-color:red;
+    color:yellow;
+    width: 45%;
+    margin:auto;
+    margin-top:4vh;
+}
+
+.Bird{
+	background:url("../img/bird.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 10%;
+	height: 10%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.BirdChampion{
+	background:url("../img/bblack.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 10%;
+	height: 10%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 6;
+}
+
+.BirdCombination{
+	background:url("../img/bgreen.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 10%;
+	height: 10%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.BirdMutation{
+	background:url("../img/bblue.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 10%;
+	height: 10%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 8;
+}
+
+.BirdChild{
+	background:url("../img/byellow.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 10%;
+	height: 10%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 7;
+}
